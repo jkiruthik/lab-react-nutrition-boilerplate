@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+  font-family: 'Poppins', sans-serif;
+}
+#search{
+  font-size: medium;
+}
+
+.search-input{
+  height: 20px;
+}
+
+.main{
+  background-color: rgb(208, 208, 208);
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  margin: 30px;
+}
+
+.one img{
+  width: 15%;
+}
+
+.one{
+  width: 850px;
+  background-color: rgb(75, 255, 75);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.one button{
+  margin-right: 20%;
+}
+
+.one input{
+  border: none;
+  outline: none;
+  text-align: left;
+  padding-left: 3%;
+  height: 20px;
+}
+
+.main p{
+  width: 250px;
+}
+
+.reset{
+  width: 200px;
+  height: 30px;
+  margin-top: 25px;
+}
